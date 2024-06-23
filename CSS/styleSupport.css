@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #FFF9D0;
+}
+
+/* NAVIGATION */
+.support__Nav{
+    display: flex;
+    padding: 30px 40px;
+}
+.support__Nav > i{
+    font-size: 2rem;
+    color: #5AB2FF;
+    margin-top: -10px;
+    padding: 10px 17px;
+    border-radius: 100%;
+}
+.support__Nav > i:hover{
+    background-color: rgb(253, 226, 157);
+}
+.support__Nav > a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    background-color: #5AB2FF;
+    color: #CAF4FF;
+    border-radius: 30px;
+    padding: 8px 20px;
+    margin-left: auto;
+}
+.support__Nav > a:hover{
+    color: #1491ff;
+    background-color: #003666;
+}
+.support__Logo{
+    padding-left: 23px;
+    font-size: 2rem;
+    color: #5AB2FF; 
+}
+.support__Logo:hover{
+    color: #1491ff;
+}
+.support__Logo > a{
+    text-decoration: none;
+    color: #5AB2FF;
+}
+.support__Logo:hover a{
+    color: #1491ff;
+}
+
+/* SEARCH */
+.support__search {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding: 100px;
+}
+.support__search > i{
+    font-size: 5rem;
+    padding: 5px;
+    color: #5AB2FF;
+}
+.support__search > p{
+    font-size: 3rem;
+    padding: 5px;
+    color: #5AB2FF;
+}
+.search{
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid #1491ff;
+    border-radius: 30px;
+    color: #5AB2FF;
+    font-size: 1.2rem;
+}
+.search > i{
+    padding-left: 15px;
+}
+.search > input{
+    width: 500px;
+    height: 5 0px;
+    border: none;
+    font-size: 1.2rem;
+}
+.search > input:focus{
+    outline: none;
+}
+.search > input::placeholder{
+    color: #5AB2FF;
+}
+/* CONTENT */
+.support__Content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.support__Content > div{
+    padding: 50px 30px;
+    border: 1px solid #5AB2FF;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.support__Content > div > a{
+    text-decoration: none;
+    color: #A0DEFF;
+    font-size: 1.4rem;
+}
+.support__Content > div > i{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.item{
+    width: 200px;
+    margin: 3px;
+    align-items: center;
+    color: #5AB2FF;
+}
+.item:hover{
+    color: aqua;
+}
+.item:hover a{
+    color: rgb(45, 211, 211);
+    text-decoration:underline;
+}

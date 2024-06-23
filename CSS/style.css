@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* HEADER */
+header{
+    z-index: 900;
+    background-color: #D40A1A;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+header > div{
+    font-size: 2rem;
+}
+
+header > div >i{
+    color: rgb(255, 255, 255);
+}
+header > div:hover i{
+    color: rgba(255, 255, 255, 0.800);
+}
+header > div >a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header > div:hover a{
+    color: rgba(255, 255, 255, 0.800);
+}
+header > nav{
+    display: flex;
+    padding: 29px 10px 10px 10px;
+    align-items: center;
+}
+header > nav > ul{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+}
+header > nav > ul > li{
+    list-style: none;
+    
+}
+header > nav > ul > li > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 50px;
+}
+header > nav > ul > li:hover a{
+    color: rgba(255, 255, 255, 0.800);
+    text-decoration:underline;
+}
+header > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-items: center;
+}
+header > a:hover{
+    color: rgba(255, 255, 255, 0.800);
+    text-decoration:underline;
+}
+
+/* CAROUSEL */
+.carouselRuna .carousel-item img{
+    opacity: 0.45;
+}
+.carouselRuna .carousel-caption h5{
+    color:#DB2227;
+    font-size: 5rem;
+}
+.carouselRuna .carousel-caption p{
+    color: #ba0900;
+    font-size: 4.5rem;
+}
+
+/* PRODUCTS */
+.waterGun{
+    background-color: #C40C0C;
+    color: #FF8A08;
+    padding: 100px;
+}
+.waterGun h1{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 4rem;
+}
+.waterGun__Content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.waterGun__Context{
+    width: 50%;
+}
+.waterGun__Context h3{
+    font-size: 2.5rem;
+}
+.waterGun__Context p{
+    padding: 40px 0;
+    font-size: 1.2rem;
+}
+.waterGun__Context button{
+    background-color: #FF6500;
+    color: #FFC100;
+    font-size: 1.2rem;
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+}
+.waterGun__Context button:hover{
+    background-color: #c64f00;
+    color: #ab8000;
+}
+.waterGun__Img{
+    width: 50%;
+}
+.waterGun__Img img{
+    width: 70%;
+    margin-left: 90px;
+    border-radius: 30px;
+}
+
+
+.sandToy{
+    background-color: #FC4100;
+    color: #00215E;
+    display: flex;
+    padding: 100px;
+}
+.sandToy__Img{
+    width: 50%;
+}
+.sandToy__Img > img{
+    width: 70%;
+    margin-left: 90px;
+    border-radius: 30px;
+}
+.sandToy__Context{
+    width: 50%;
+}
+.sandToy__Context h3{
+    font-size: 2.5rem;
+}
+.sandToy__Context p{
+    padding: 40px 0;
+    font-size: 1.2rem;
+}
+.sandToy__Context button{
+    background-color: #FFC55A;
+    color: #2C4E80;
+    font-size: 1.2rem;
+    padding: 13px;
+    border-radius: 50px;
+    border: none;
+}
+.sandToy__Context button:hover{
+    background-color: #da8e00;
+    color: #1a3052;
+}
+/* FOOTER */
+footer{
+    padding: 70px 120px 30px 120px;
+    background-color: #FFFAE6;
+}
+
+.footer__Content{
+    display: flex;
+}
+
+.footer__Logo{
+    font-size: 3rem;
+    margin-top: -30px;
+    margin-right: 100px;
+}
+.footer__Logo > i{
+    color: #002379;
+}
+.footer__Logo > i:hover{
+    color: #4D869C;
+}
+.footer__Logo > a{
+    text-decoration: none;
+    color: #002379;
+}
+.footer__Logo > a:hover{
+    color: #4D869C;
+}
+
+.footer__Context{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__Context > div{
+    max-width: 180px;
+    width: 160px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.footer__Shop > h1{
+    color: #FF5F00;
+    font-size: 1.1rem;
+}
+.footer__Shop > a{
+    text-decoration: none;
+    color:#002379;
+    font-size: 1.4rem;
+}
+.footer__Shop > a:hover{
+    color: #4D869C;
+}
+
+.footer__Info{
+    display: flex;
+    flex-direction: column;
+}
+.footer__Info > h1{
+    color: #FF5F00;
+    font-size: 1.1rem;
+}
+.footer__Info > a{
+    text-decoration: none;
+    color:#002379;
+    font-size: 1.4rem;
+}
+.footer__Info > a:hover{
+    color: #4D869C;
+}
+
+.footer__Support{
+    display: flex;
+    flex-direction: column;
+}
+.footer__Support > h1{
+    color: #FF5F00;
+    font-size: 1.1rem;
+}
+.footer__Support > a{
+    text-decoration: none;
+    color:#002379;
+    font-size: 1.4rem;
+}
+.footer__Support > a:hover{
+    color: #4D869C;
+}
+
+.footer__Copyright > p{
+    padding: 0;
+    margin: 0;
+    color: #FF9F66;
+}
+
